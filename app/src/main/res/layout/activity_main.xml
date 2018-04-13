@@ -28,9 +28,28 @@
         android:layout_height="wrap_content" />
 
     <RadioGroup
+        android:layout_marginTop="100dp"
+        android:layout_below="@id/checkboxPHP"
         android:id="@+id/radiogroup"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
-
+        <RadioButton
+            android:id="@+id/radiobuttonJava"
+            android:textSize="30sp"
+            android:text="Java"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:id="@+id/radiobuttonPython"
+            android:textSize="30sp"
+            android:text="Python"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:id="@+id/radiobuttonJavaScript"
+            android:textSize="30sp"
+            android:text="Java Script"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
     </RadioGroup>
 </RelativeLayout>
